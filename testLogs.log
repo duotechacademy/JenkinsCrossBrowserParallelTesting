@@ -1,0 +1,9 @@
+2020-05-07 18:20:34 INFO  LoginStepDefs:41 - Navigating to a homepage
+2020-05-07 18:20:34 INFO  LoginStepDefs:48 - Clicking on Sign in
+2020-05-07 18:20:36 INFO  LoginStepDefs:55 - Getting the page title
+2020-05-07 18:20:36 INFO  LoginStepDefs:58 - Verifying the title
+2020-05-07 18:20:36 INFO  LoginStepDefs:62 - Title Verification passed
+2020-05-07 18:20:47 INFO  LoginStepDefs:41 - Navigating to a homepage
+2020-05-07 18:20:47 INFO  LoginStepDefs:48 - Clicking on Sign in
+2020-05-07 18:21:00 INFO  LoginStepDefs:41 - Navigating to a homepage
+2020-05-07 18:21:00 INFO  LoginStepDefs:48 - Clicking on Sign in
