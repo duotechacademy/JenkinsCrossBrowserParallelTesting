@@ -10,12 +10,12 @@ Feature: Login functionality
 		
 			
 			Then The login page title should be Login - My Store
-	 @smoke
+	
 		Scenario: Verify login page elements 
 			
 			Then I should be able to see email, password boxes and login button
 			
-   @smoke
+ 
 		Scenario: Verify positive login 
 			
 			And I enter duotech@gmail.com as email, dt123 as password, and click login
