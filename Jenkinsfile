@@ -16,7 +16,7 @@
                    
             },
             edge: {
-               node('Linux'){  
+               node('linux'){  
                            git 'https://github.com/duotechacademy/JenkinsCrossBrowserParallelTestingCucumberFramework' 
  
                }
@@ -43,7 +43,7 @@
                    
             },
             edge: {
-               node('Linux'){  
+               node('linux'){  
                     bat label: '', script: 'mvn verify -Dbrowser="edge"'
                }
                    
@@ -65,7 +65,7 @@
                    
             },
             edge: {
-               node('Linux'){  
+               node('linux'){  
         junit '**/*Cucumber.xml'               }
                    
                }
@@ -90,7 +90,7 @@
                    
             },
             edge: {
-               node('Linux'){  
+               node('linux'){  
                     step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'steverocklow@gmail.com', sendToIndividuals: false])
                }
                    
