@@ -79,19 +79,19 @@
         
         parallel chrome: {
             node('master'){
-                step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'steverocklow@gmail.com', sendToIndividuals: false])
+                step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'duotechinstructor@gmail.com', sendToIndividuals: false])
             }
                 
             },
             firefox: {
                node('mac'){  
-                step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'steverocklow@gmail.com', sendToIndividuals: false])
+                step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'duotechinstructor@gmail.com', sendToIndividuals: false])
                }
                    
             },
             edge: {
                node('linux'){  
-                    step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'steverocklow@gmail.com', sendToIndividuals: false])
+                    step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'duotechinstructor@gmail.com', sendToIndividuals: false])
                }
                    
                }
